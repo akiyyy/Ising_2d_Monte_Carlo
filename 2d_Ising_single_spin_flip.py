@@ -63,7 +63,7 @@ for t in T:
     Energy.append(E * c1)
     Magnetization.append(M * c1)
     SpecificHeat.append(C)
-    Susceptibility.append(X)
+    Susceptibility.append(X / c2)
 
 ''' plot the calculated values '''
 Magnetization = np.array(Magnetization)
